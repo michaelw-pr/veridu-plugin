@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "veridu": {
+      "type": "http",
+      "url": "https://api.veridu.io/mcp"
+    }
+  }
+}

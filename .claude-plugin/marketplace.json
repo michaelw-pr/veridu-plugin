@@ -1,0 +1,15 @@
+{
+  "name": "veridu",
+  "description": "Veridu's Claude Code plugin: independent review of a change before you commit.",
+  "owner": {
+    "name": "Veridu",
+    "email": "hello@veridu.io"
+  },
+  "plugins": [
+    {
+      "name": "veridu",
+      "source": "./",
+      "description": "Independent review of the change Claude just made, before you commit."
+    }
+  ]
+}
