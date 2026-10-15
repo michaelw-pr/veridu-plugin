@@ -3,9 +3,19 @@
   "displayName": "Veridu",
   "version": "0.1.0",
   "description": "Independent review of the change Claude just made, before you commit: Veridu's reviewers check it and Claude fixes the findings that hold up.",
-  "author": { "name": "Veridu", "email": "hello@veridu.io", "url": "https://veridu.io" },
+  "author": {
+    "name": "Veridu",
+    "email": "hello@veridu.io",
+    "url": "https://veridu.io"
+  },
   "homepage": "https://veridu.io/docs#mcp",
   "repository": "https://github.com/michaelw-pr/veridu-plugin",
   "license": "MIT",
-  "keywords": ["code-review", "verification", "pre-commit", "mcp"]
+  "privacyPolicyUrl": "https://veridu.io/data",
+  "keywords": [
+    "code-review",
+    "verification",
+    "pre-commit",
+    "mcp"
+  ]
 }
