@@ -1,0 +1,16 @@
+{
+  "name": "veridu",
+  "version": "0.1.0",
+  "description": "Independent review of the change your agent just made, before you commit: Veridu's reviewers check it and the agent fixes the findings that hold up.",
+  "author": {
+    "name": "Veridu",
+    "email": "hello@veridu.io",
+    "url": "https://veridu.io"
+  },
+  "homepage": "https://veridu.io/docs#mcp",
+  "repository": "https://github.com/michaelw-pr/veridu-plugin",
+  "license": "MIT",
+  "keywords": ["code-review", "verification", "pre-commit", "mcp"],
+  "logo": ".claude-plugin/icon.png",
+  "mcpServers": ".mcp.json"
+}
