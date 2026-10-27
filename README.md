@@ -23,6 +23,23 @@ Then run `/mcp`, choose **veridu**, and sign in in the browser (GitHub, Google o
 
 The same plugin installs in Cursor (`.cursor-plugin/plugin.json`): the Veridu MCP server at `https://api.veridu.io/mcp` and the verify-before-commit skill. Sign-in is OAuth in the browser the first time the server is used; there is no token to paste.
 
+## VS Code (GitHub Copilot)
+
+Veridu is a remote MCP server; nothing to install. Add it to `.vscode/mcp.json` in your project (or your user `mcp.json`):
+
+```json
+{
+  "servers": {
+    "veridu": {
+      "type": "http",
+      "url": "https://api.veridu.io/mcp"
+    }
+  }
+}
+```
+
+Start the server from the file or the MCP servers list and sign in in the browser when asked (GitHub, Google or an emailed code). In Copilot agent mode, ask it to "verify this change with Veridu" before you commit: it calls `verify_change` with the diff and the changed files and gets back an outcome (pass, review or block) and findings with file, line, severity and evidence. To review an existing GitHub pull request, ask it to review the PR with Veridu (`veridu_review`).
+
 ## Cost
 
 Free accounts include 20 reviews a month. Each new change uses one; up to two follow-up checks of the same change are free, and resending an identical change returns the earlier result free. Plans: https://veridu.io/pricing
