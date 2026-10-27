@@ -19,6 +19,10 @@ Nothing runs on your machine: there are no hooks, scripts or packages.
 
 Then run `/mcp`, choose **veridu**, and sign in in the browser (GitHub, Google or an emailed code). No API keys.
 
+## Cursor
+
+The same plugin installs in Cursor (`.cursor-plugin/plugin.json`): the Veridu MCP server at `https://api.veridu.io/mcp` and the verify-before-commit skill. Sign-in is OAuth in the browser the first time the server is used; there is no token to paste.
+
 ## Cost
 
 Free accounts include 20 reviews a month. Each new change uses one; up to two follow-up checks of the same change are free, and resending an identical change returns the earlier result free. Plans: https://veridu.io/pricing
